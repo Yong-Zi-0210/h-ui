@@ -1,0 +1,23 @@
+{
+  "name": "@hyz-ui/theme-chalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "gulp --require @esbuild-kit/cjs-loader"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp-autoprefixer": "^0.0.37",
+    "@types/gulp-postcss": "^8.0.6",
+    "@types/gulp-sass": "^5.0.4",
+    "cssnano": "^6.1.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0"
+  }
+}

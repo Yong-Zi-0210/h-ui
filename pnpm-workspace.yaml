@@ -1,0 +1,9 @@
+# 此文件作用
+# 为了能够使每个包能互相引用，我们需要配置工作区workspace如下，表示这三个包可以互相引用
+# 这三包作为根目录下package.json的依赖进行安装实现互相引用
+
+# 在跟目录下执行命令 pnpm install @hyz-ui/components -w  其中"@hyz-ui/components"表包名，-w表示工作区
+packages:
+  - paly # 测试组件功能
+  - docs # 组件库文档
+  - 'packages/*' # 存放组件

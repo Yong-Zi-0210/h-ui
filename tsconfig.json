@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 遵循es6版本
+    "module": "ESNext", // 打包模块类型   
+    "noImplicitAny": true, // 不允许any类型
+    "declaration": false, // 默认不要声明文件
+    "removeComments": true, // 删除注释
+    "moduleResolution": "node", // 安装node模块解析               
+    "esModuleInterop": true, // 支持es6、commonjs模块                   
+    "jsx": "preserve",  // jsx 不转    
+    "noLib": false, // 不处理类库
+    "sourceMap": true, // 开启源码调试
+    "lib": [
+      "ESNext",
+      "DOM"
+    ], // 编译时调用的库
+    "allowSyntheticDefaultImports": true, // 允许没导出的模块中导入
+    "experimentalDecorators": true, // 装饰器
+    "forceConsistentCasingInFileNames": true, // 强制区分大小写
+    "resolveJsonModule": true, // 解析json模块
+    "strict": true, // 严格模式
+    "skipLibCheck": true, // 跳过类库的检查
+    "types": ["unplugin-vue-define-options/macros-global"]
+  },
+  "exclude": [ // 排除的类库
+    "node_modules",
+    "**/__test__",
+    "dist/**"
+  ]
+}
