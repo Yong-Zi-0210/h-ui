@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Hyz-UI',
   description: 'hyz ui',
+  base: '/h-ui/',
   themeConfig: {
     lastUpdated: '最后更新时间',
     docsDir: 'docs',
