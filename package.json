@@ -7,6 +7,7 @@
     "cz": "czg",
     "dev": "pnpm -C paly dev",
     "docs:dev": "pnpm -C docs dev",
+    "docs:build": "pnpm -C docs build",
     "build:theme": "pnpm run -C packages/theme-chalk build",
     "clean:theme": "pnpm run -C packages/theme-chalk clean"
   },
@@ -41,6 +42,7 @@
     "lint-staged": "^15.2.2",
     "mrm": "^4.1.22",
     "rimraf": "^5.0.5",
+    "sass": "^1.79.1",
     "unplugin-vue-define-options": "^1.4.2"
   },
   "config": {
